@@ -1,0 +1,65 @@
+.dark {
+  background: rgba(0, 0, 0, 0.651);
+  color: white;
+}
+.dark .a {
+  text-shadow: 2px 2px 4px #000000;
+}
+.light {
+  color: rgb(0, 0, 0);
+}
+.light .a {
+  text-shadow: 4px 4px 12px rgb(255, 255, 255);
+}
+.a {
+  font-weight: 600;
+  line-height: 90%;
+  font-family: "Lobster Two";
+}
+.c {
+  font-family: cursive;
+}
+.b {
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 110, 255),
+    rgb(0, 255, 149)
+  );
+  background-clip: text;
+  color: transparent;
+}
+.aa {
+  border-radius: 80% 40px 10px;
+  background-image: radial-gradient(rgb(0, 110, 255), lime);
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 13px;
+}
+.dot1 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 208, 0);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 6px;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(9, 255, 0);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 6px;
+}
+.as {
+  background: grey;
+}
+.pue {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aliceblue;
+}
