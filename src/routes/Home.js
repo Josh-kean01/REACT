@@ -4,7 +4,7 @@ import Description from "../components/Description";
 
 const Home = () => {
   return (
-    <article className="mt-1">
+    <article className="py-4">
       <div className="container pt-lg-5">
         <div className="row">
           <div className="col-lg my-1 pt-lg-2 d-flex justify-content-lg-end justify-content-center">
