@@ -4,14 +4,14 @@ import logo from "../5.jpg";
 const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg px-4">
+      <nav className="navbar navbar-expand-lg px-4 bg-dark navbar-dark">
         <div className="container-fluid">
           <span className="navbar-brand px-lg-5 " href="#" role="button">
             <img src={logo} width="48" alt="" className="rounded" />
             &nbsp; 𝕵𝖔𝖘𝖍_𝕶𝖊𝖆𝖓 ➭
           </span>
-          <button
-            className="navbar-toggler"
+          <span
+            className="navbar-toggler border-0 jiu"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -19,8 +19,8 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+            <span className="navbar-toggler-icon border-0"></span>
+          </span>
           <div
             className="collapse navbar-collapse mx-lg-5"
             id="navbarNavAltMarkup"
@@ -48,7 +48,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
               >
                 Project
               </span>
-              <span
+              {/* <span
                 className="nav-link mx-lg-5"
                 role="button"
                 onClick={() => setIsDarkMode(!isDarkMode)}
@@ -57,9 +57,19 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
                   inline
                   icon="line-md:switch-off-to-switch-transition"
                 ></iconify-icon>
-              </span>
+              </span> */}
             </div>
           </div>
+          <span
+            className="nav-link mx-lg-5 zuu"
+            role="button"
+            onClick={() => setIsDarkMode(!isDarkMode)}
+          >
+            <iconify-icon
+              inline
+              icon="line-md:switch-off-to-switch-transition"
+            ></iconify-icon>
+          </span>
         </div>
       </nav>
 

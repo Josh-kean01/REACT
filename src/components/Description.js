@@ -14,7 +14,7 @@ const Description = () => {
       <div>
         <Property img={img4} text="Fueled by coffee" />
         <Property img={img3} text="Based in Nigeria" />
-        <Property img={img2} text="Student at Valuemax" />
+        <Property img={img2} text="Student at ValuemaxCodersHub" />
         <Property img={img1} text="joshua9@gmail.com" />
       </div>
     </article>
@@ -27,7 +27,7 @@ const Property = ({ img, text }) => {
   return (
     <div>
       <img src={img} alt="" className="my-1 rounded-5" height={40} width={40} />
-      <span>{text}</span>
+      <span className="px-2">{text}</span>
     </div>
   );
 };

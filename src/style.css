@@ -1,5 +1,5 @@
 .dark {
-  background: rgba(0, 0, 0, 0.651);
+  background: #000000;
   color: white;
 }
 .dark .a {
@@ -29,8 +29,10 @@
   color: transparent;
 }
 .aa {
-  border-radius: 80% 40px 10px;
-  background-image: radial-gradient(rgb(0, 110, 255), lime);
+  background-image: linear-gradient(to right, rgb(0, 110, 255), lime);
+  border-radius: 2pc 0pc;
+  height: 70%;
+  padding-bottom: 10px;
 }
 .dot {
   height: 15px;
@@ -62,4 +64,46 @@
 .pue {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: aliceblue;
+}
+.cer {
+  border-radius: 2pc 0pc;
+  /* width: 70%; */
+  margin: 5px;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  /* .cer {
+    margin-top: 3pc;
+  } */
+  .aa {
+    margin-top: 3pc;
+  }
+}
+.wer {
+  width: 100%;
+  padding: 1pc;
+}
+.mony {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-content: space-between; */
+}
+.mony button a {
+  text-decoration: none;
+  color: black;
+}
+.dark .mony button a {
+  color: white;
+}
+.dark .mony button {
+  border: 1px solid white;
+}
+.light .zuu {
+  color: white;
+}
+.jiu{
+  position: sticky;
+  top: 20px;
+  right: 20%;
 }
