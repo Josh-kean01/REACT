@@ -4,7 +4,7 @@ import logo from "../5.jpg";
 const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg px-4 bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-lg px-4">
         <div className="container-fluid">
           <span className="navbar-brand px-lg-5 " href="#" role="button">
             <img src={logo} width="48" alt="" className="rounded" />
@@ -27,7 +27,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
           >
             <div className="navbar-nav mx-lg-5">
               <span
-                className="nav-link active mx-lg-5"
+                className="nav-link active mx-lg-5 aoa"
                 aria-current="page"
                 role="button"
                 onClick={() => setCurrentPage("home")}
@@ -35,14 +35,14 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
                 Home
               </span>
               <span
-                className="nav-link mx-lg-5"
+                className="nav-link mx-lg-5 aoa"
                 role="button"
                 onClick={() => setCurrentPage("about")}
               >
                 About Me
               </span>
               <span
-                className="nav-link mx-lg-5"
+                className="nav-link mx-lg-5 aoa"
                 role="button"
                 onClick={() => setCurrentPage("project")}
               >
@@ -61,7 +61,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
             </div>
           </div>
           <span
-            className="nav-link mx-lg-5 zuu"
+            className="nav-link mx-lg-5 zuu aoa"
             role="button"
             onClick={() => setIsDarkMode(!isDarkMode)}
           >

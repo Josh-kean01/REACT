@@ -15,13 +15,13 @@ export default About;
 const ShortNote = () => {
   return (
     <div className="d-flex justify-content-center my-5">
-      <article className="bg-dark w-50 rounded-3">
+      <article className="bg-dark w-75 rounded-3">
         <div className="as rounded-top p-1">
           <span className="dot"></span>
           <span className="dot1"></span>
           <span className="dot2"></span>
         </div>
-        <div className="pue p-lg-5 p-2">
+        <div className="pue p-lg-5 p-3">
           <h1 className="p-2">About Josh_Kean</h1>
           <p>
             I am outgoing, dedicated, and open-minded. I get across to people
@@ -38,7 +38,7 @@ const ShortNote = () => {
 const Skills = () => {
   return (
     <div className="d-flex justify-content-center my-5">
-      <article className="bg-dark w-50 rounded-3">
+      <article className="bg-dark w-75 rounded-3">
         <div className="as rounded-top p-1">
           <span className="dot"></span>
           <span className="dot1"></span>
@@ -83,7 +83,7 @@ const SkillList = ({ title, list }) => {
 const Hobbies = () => {
   return (
     <div className="d-flex justify-content-center my-5">
-      <article className="bg-dark w-50 rounded-3">
+      <article className="bg-dark w-75 rounded-3">
         <div className="as rounded-top p-1">
           <span className="dot"></span>
           <span className="dot1"></span>

@@ -5,8 +5,11 @@
 .dark .a {
   text-shadow: 2px 2px 4px #000000;
 }
-.light {
+.light .navbar .aoa {
   color: rgb(0, 0, 0);
+}
+.dark .navbar .aoa {
+  color: white;
 }
 .light .a {
   text-shadow: 4px 4px 12px rgb(255, 255, 255);
@@ -102,7 +105,7 @@
 .light .zuu {
   color: white;
 }
-.jiu{
+.jiu {
   position: sticky;
   top: 20px;
   right: 20%;
