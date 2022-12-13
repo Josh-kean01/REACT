@@ -19,7 +19,8 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon border-0 aoa"></span>
+            <span className="navbar-toggler-icon navbar-dark"></span>
+            <i class="bi bi-list navbar-toggler-icon"></i>
           </span>
           <div
             className="collapse navbar-collapse mx-lg-5"
