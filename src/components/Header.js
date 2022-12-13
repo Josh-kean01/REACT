@@ -11,7 +11,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
             &nbsp; 𝕵𝖔𝖘𝖍_𝕶𝖊𝖆𝖓 ➭
           </span>
           <span
-            className="navbar-toggler border-0 jiu"
+            className="navbar-toggler border-0 jiu aoa"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -19,7 +19,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon border-0"></span>
+            <span className="navbar-toggler-icon border-0 aoa"></span>
           </span>
           <div
             className="collapse navbar-collapse mx-lg-5"
