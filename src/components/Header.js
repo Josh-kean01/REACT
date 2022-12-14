@@ -6,7 +6,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
     <header>
       <nav className="navbar navbar-expand-lg px-4">
         <div className="container-fluid">
-          <span className="navbar-brand px-lg-5 " href="#" role="button">
+          <span className="navbar-brand px-lg-5 aoa" href="#" role="button">
             <img src={logo} width="48" alt="" className="rounded" />
             &nbsp; 𝕵𝖔𝖘𝖍_𝕶𝖊𝖆𝖓 ➭
           </span>
