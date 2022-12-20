@@ -1,3 +1,9 @@
+.dark .sticky-bottom {
+  background: #000000;
+}
+.light .sticky-bottom {
+  background: #ffffff;
+}
 .dark {
   background: #000000;
   color: white;
