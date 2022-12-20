@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="sticky-bottom">
       <div className="d-flex justify-content-center pt-3">
         <a
           className="px-3"
