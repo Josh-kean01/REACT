@@ -98,7 +98,6 @@ const Hobbies = () => {
             <HobbyList text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👩‍💻&nbsp;&nbsp;&nbsp;Coding" />
           </div>
         </div>
-        <br />
       </article>
     </div>
   );
