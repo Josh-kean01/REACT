@@ -1,7 +1,7 @@
-.dark .sticky-bottom {
+.dark .yuuyi {
   background: #000000;
 }
-.light .sticky-bottom {
+.light .yuuyi {
   background: #ffffff;
 }
 .dark {
@@ -116,4 +116,16 @@
   position: sticky;
   top: 20px;
   right: 20%;
+}
+.moig {
+  /* position: fixed; */
+  bottom: 0;
+}
+.asde {
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  .asde {
+    height: 100vh;
+  }
 }
