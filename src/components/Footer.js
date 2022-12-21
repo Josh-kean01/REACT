@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="fixed-bottom bottom-0 yuuyi">
+    <footer className="fixed-bottom bottom-0 yuuyi mt-3">
       <div className="d-flex justify-content-center">
         <a
           className="px-3"
