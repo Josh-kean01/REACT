@@ -11,7 +11,7 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
             &nbsp; 𝕵𝖔𝖘𝖍_𝕶𝖊𝖆𝖓 ➭
           </span>
           <span
-            className="navbar-toggler border-0 jiu aoa"
+            className="navbar-toggler jiu border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
@@ -49,16 +49,6 @@ const Header = ({ setCurrentPage, isDarkMode, setIsDarkMode }) => {
               >
                 Project
               </span>
-              {/* <span
-                className="nav-link mx-lg-5"
-                role="button"
-                onClick={() => setIsDarkMode(!isDarkMode)}
-              >
-                <iconify-icon
-                  inline
-                  icon="line-md:switch-off-to-switch-transition"
-                ></iconify-icon>
-              </span> */}
             </div>
           </div>
           <span
