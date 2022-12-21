@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mb-5">
+    <div>
       <ShortNote />
       <Skills />
       <Hobbies />
@@ -98,6 +98,7 @@ const Hobbies = () => {
             <HobbyList text="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;👩‍💻&nbsp;&nbsp;&nbsp;Coding" />
           </div>
         </div>
+        <br />
       </article>
     </div>
   );
