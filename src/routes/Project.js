@@ -7,7 +7,7 @@ import img5 from "../6.png";
 
 const Project = () => {
   return (
-    <div className="container d-flex justify-content-center">
+    <div className="container d-flex justify-content-center mb-3">
       <div className="row row-cols-lg-2 d-flex justify-content-center">
         <ProjectCard
           img={img1}
