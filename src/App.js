@@ -12,15 +12,17 @@ const App = () => {
 
   return (
     <div className={isDarkMode ? "dark" : "light"}>
-      <Header
-        setCurrentPage={setCurrentPage}
-        isDarkMode={isDarkMode}
-        setIsDarkMode={setIsDarkMode}
-      />
-      {currentPage === "home" && <Home />}
-      {currentPage === "about" && <About />}
-      {currentPage === "project" && <Project />}
-      <Footer />
+      <div className="asde">
+        <Header
+          setCurrentPage={setCurrentPage}
+          isDarkMode={isDarkMode}
+          setIsDarkMode={setIsDarkMode}
+        />
+        {currentPage === "home" && <Home />}
+        {currentPage === "about" && <About />}
+        {currentPage === "project" && <Project />}
+        <Footer />
+      </div>
     </div>
   );
 };
