@@ -21,7 +21,7 @@ const App = () => {
         {currentPage === "home" && <Home />}
         {currentPage === "about" && <About />}
         {currentPage === "project" && <Project />}
-//         <Footer />
+        <Footer />
       </div>
     </div>
   );
